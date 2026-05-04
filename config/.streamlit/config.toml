@@ -1,0 +1,27 @@
+[theme]
+primaryColor = "#4F46E5"
+backgroundColor = "#0F172A"
+secondaryBackgroundColor = "#1E293B"
+textColor = "#F1F5F9"
+font = "sans serif"
+
+[client]
+showErrorDetails = true
+showWarningOnDirectoryDelete = false
+
+[logger]
+level = "info"
+messageFormat = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+[server]
+port = 8501
+headless = true
+runOnSave = true
+maxUploadSize = 100
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+
+[mapbox]
+token = ""
